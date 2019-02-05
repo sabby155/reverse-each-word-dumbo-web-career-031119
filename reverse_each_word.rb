@@ -5,8 +5,8 @@ def reverse_each_word (str)
   result.join(' ')
 end   
 
-def reverse_each_word (str)
-  reverse = str.split(' ')
-  reverse.colect {|x| x.reverse}
-end   
+# def reverse_each_word (str)
+#   reverse = str.split(' ')
+#   reverse.colect {|x| x.reverse}
+# end   
   
