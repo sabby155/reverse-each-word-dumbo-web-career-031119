@@ -7,6 +7,6 @@ end
 
 def reverse_each_word (str)
   reverse = str.split(' ')
-  reverse.colect {}
+  reverse.colect {|x| x.reverse}
 end   
   
